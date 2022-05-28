@@ -1,0 +1,22 @@
+.btn-success:hover {
+    background-color: red;
+}
+
+#h3 {
+    font-size: 25px;
+}
+
+canvas {
+    animation-name: mustache;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mustache{
+    from{
+        box-shadow: 7px 7px 40px burlywood;
+    }
+    to{
+        box-shadow: 10px 10px 40px black;
+    }
+}
